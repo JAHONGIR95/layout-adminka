@@ -1,5 +1,4 @@
 import {Link} from 'react-router-dom';
-import {useState} from 'react';
 
 
 import {
@@ -19,8 +18,7 @@ import MainLogo from "../../Assets/images/icons/logo.png";
 
 import "./main.scss";
 
-const Sidebar = () => {
-  const [activePage, setActivePage] = useState('');
+const Sidebar = ({activePage, setActivePage}) => {
 
   
   return (
